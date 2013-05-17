@@ -24,7 +24,7 @@ apt_install() {
   info "installing $1"
   if $2 >> /tmp/play-bootstrap
   then
-    sudo apt-get install $1 >> /tmp/play-bootstrap
+    sudo apt-get install -y $1 >> /tmp/play-bootstrap
     success $1
   else
     fail $1
