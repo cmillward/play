@@ -5,6 +5,7 @@ db:
   password:
   database: play
   reconnect: true
+  host: localhost
 github:
   org:
   client_id: 
